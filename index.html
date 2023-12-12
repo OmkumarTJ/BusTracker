@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<title>Tour Guide-Homepage</title>
+<link rel="icon" type="image/x-icon" href="OK.jpg">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+	body,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: "Raleway", sans-serif;
+	}
+
+	body,
+	html {
+		height: 100%;
+		line-height: 1.8;
+	}
+
+	.bgimg-1 {
+		background-position: center;
+		background-size: cover;
+		background-image: url("bus.webp");
+		margin: 10px 100px;
+		border-radius: 200px;
+		border: solid 10px red;
+	}
+
+	.nav1,
+	.nav2,
+	.nav3,
+	.nav4,
+	.nav5 {
+		color: #000000;
+		background-color: yellow;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 15px;
+	}
+
+	.nav1:hover,
+	.nav2:hover,
+	.nav3:hover,
+	.nav4:hover,
+	.nav5:hover {
+		border: 2px solid white;
+		background: #4e00fe;
+		color: white;
+		top: 5px;
+		left: -5px;
+		color: white;
+	}
+
+	.sign,
+	.book {
+
+		border: 2px solid #0000ff;
+		border-radius: 15px;
+		color: #000000;
+		background-color: yellow;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 20px;
+		margin-top: 0px;
+		margin-left: 300px;
+		margin-bottom: 50px;
+		transition: 1s;
+	}
+
+	.sign:hover,
+	.book:hover {
+		border: 1px solid white;
+		background: #4e00fe;
+		color: white;
+		font-size: 20px;
+	}
+
+
+	.rightnav {
+		float: right;
+	}
+
+	.fullnav {
+		background-color: white;
+		position: sticky;
+		top: 0;
+	}
+
+	.HomepageTextSpace {
+		display: left;
+		padding-top: 200px;
+		padding-left: 100px;
+		padding-bottom: 10px;
+	}
+
+	.HomepageText1 {
+		font-size: xxx-large;
+		transition: 1s;
+	}
+
+	.HomepageText2 {
+		font-size: large;
+		transition: 1s;
+		padding-top: 1000px;
+
+	}
+
+	#Slogans {
+		font-size: 25px;
+		text-align: center;
+		transition: 1s;
+	}
+
+	.circle-buttons {
+		display: flex;
+		width: 100%;
+		height: 100px;
+		/* border: 10px solid yellow; */
+	}
+
+	#circle-button1{
+		margin-top: 268px;
+		margin-left: 238px;
+		padding-left:100px;
+		width: 130px;
+		height: 130px;
+		border: 15px solid grey;
+		border-radius: 50%;
+		background-color: red;
+	}
+	#circle-button2{
+		margin-top: 268px;
+		margin-left: 470px;
+		padding-left:100px;
+		width: 130px;
+		height: 130px;
+		border: 15px solid grey;
+		border-radius: 50%;
+		background-color:red;
+	}
+</style>
+
+<body>
+	<div class="fullnav">
+		<a href="CanteenHomepage.html" class="nav1"><i class="fa fa-home" aria-hidden="true"></i> HOME</a>
+		<div class="rightnav">
+			<a href="AdminLoginPage.html" target="_blank" class="nav2"><i class="fa fa-user" aria-hidden="true"></i>
+				ADMIN</a>
+			<a href="AboutPage.html" class="nav2"><i class="fa fa-info" aria-hidden="true"></i> ABOUT</a>
+			<!-- 			<a href="TeamPage.html" class="nav3"><i class="fa fa-users" aria-hidden="true"></i> TEAM</a>
+ --> <a href="Canteen_WorkPage.html" class="nav4"><i class="fa fa-th"></i> WORK</a>
+			<a href="ContactPage.html" class="nav5"><i class="fa fa-envelope"></i> CONTACT</a>
+		</div>
+	</div>
+	<header class="bgimg-1"><br><br><br>
+		<img src="skyline.png" height=50>
+		<div class="circle-buttons">
+			<a href="loginSG.html" id="circle-button1"><i class="fa fa-user-plus" aria-hidden="true"></i>Track Bus</a>
+
+			<a href="loginSG.html" id="circle-button2"><i class="fa fa-user-plus" aria-hidden="true"></i>Track Bus</a>
+
+	</div>
+		<div class="HomepageTextSpace">
+			<span class="HomepageText1" style="color:#000000">India’s Largest Tourist Guide Service</span><br>
+			<span class="HomepageText2" style="color:#000000"> Skyline is India’s first and fastest growing Tour Guide
+				Website with a whopping 25 Million+ users. We are now running operations in more than 100 cities.</span>
+		</div>
+	</header>
+
+
+
+	</div>
+
+	<div id="Slogans">
+		<p>PreBooking your Food Items And Don't Wait</p>
+	</div>
+	<div id="buttons">
+		<a href="loginSG.html" class="sign"><i class="fa fa-user-plus" aria-hidden="true"></i> Signup as a guide</a>
+		<a href="loginBG.html" class="book"><i class="fa fa-address-book" aria-hidden="true"></i> Book guide</a>
+	</div>
+</body>
+
+</html>
